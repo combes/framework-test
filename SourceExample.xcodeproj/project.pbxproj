@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83D8DD16200E5FDA00B9A01E /* SourceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D8DD13200E5FCD00B9A01E /* SourceFramework.framework */; };
 		83D8DD17200E5FDF00B9A01E /* SourceFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83D8DD13200E5FCD00B9A01E /* SourceFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83D8DD29200E63F000B9A01E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83D8DD28200E63F000B9A01E /* README.md */; };
 		83D94273200C3BDB00B854A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D94272200C3BDB00B854A5 /* AppDelegate.swift */; };
 		83D94275200C3BDB00B854A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D94274200C3BDB00B854A5 /* ViewController.swift */; };
 		83D94278200C3BDB00B854A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D94276200C3BDB00B854A5 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		83D8DD0D200E5FCD00B9A01E /* SourceFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SourceFramework.xcodeproj; path = SourceFramework/SourceFramework.xcodeproj; sourceTree = "<group>"; };
+		83D8DD28200E63F000B9A01E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		83D9426F200C3BDB00B854A5 /* SourceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D94272200C3BDB00B854A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D94274200C3BDB00B854A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		83D94271200C3BDB00B854A5 /* SourceExample */ = {
 			isa = PBXGroup;
 			children = (
+				83D8DD28200E63F000B9A01E /* README.md */,
 				83D94272200C3BDB00B854A5 /* AppDelegate.swift */,
 				83D94274200C3BDB00B854A5 /* ViewController.swift */,
 				83D94276200C3BDB00B854A5 /* Main.storyboard */,
@@ -195,6 +198,7 @@
 			files = (
 				83D9427D200C3BDC00B854A5 /* LaunchScreen.storyboard in Resources */,
 				83D9427A200C3BDC00B854A5 /* Assets.xcassets in Resources */,
+				83D8DD29200E63F000B9A01E /* README.md in Resources */,
 				83D94278200C3BDB00B854A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
