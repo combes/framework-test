@@ -2,6 +2,10 @@
 
 ## Description
 
+Attempting to include a third-party library into a new framework on iOS.
+
+Structure:  iOS application < Custom Framework < Third-Party Library
+
 This is the error that occurs when building and running on a device...
 
 dyld: Library not loaded: @rpath/Kingfisher.framework/Kingfisher
