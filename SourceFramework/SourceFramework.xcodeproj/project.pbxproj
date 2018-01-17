@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		836FDDD8200DCA2300F484D8 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836FDDB4200DC98400F484D8 /* Kingfisher.framework */; };
 		836FDDD9200DCA3E00F484D8 /* Kingfisher.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 836FDDB4200DC98400F484D8 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83D94231200C391D00B854A5 /* SourceFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D9422F200C391D00B854A5 /* SourceFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83D94263200C3A0F00B854A5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D94262200C3A0F00B854A5 /* Storyboard.storyboard */; };
@@ -136,7 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836FDDD8200DCA2300F484D8 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
